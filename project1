@@ -11,6 +11,3 @@ git commit -a -m "second commit"
 git log
 git checkout master
 git log
-git checkout dev
-git log
-# commit successful
