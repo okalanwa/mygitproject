@@ -1,0 +1,15 @@
+# how to commit change
+cd mygitproject
+echo "master branch" > file1
+git add file1
+git commit -a -m "first commit"
+git checkout -b dev branch
+echo "dev branch" > file2
+git add file2
+git commit -a -m "second commit"
+# to verify commit
+git log
+git checkout master
+git log
+git checkout dev
+git log
